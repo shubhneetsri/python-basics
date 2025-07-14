@@ -31,10 +31,11 @@ class db_fn():
         seen_queries = set()
         in_select = False
 
-        with open(r'D:\helpdesk\slow queries.sql', 'r') as file, open(r'D:\helpdesk\query.txt', 'w') as outfile:
+        with open(r'D:\py\python-basics\slow queries.sql', 'r') as file, open(r'D:\helpdesk\query.txt', 'w') as outfile:
             for line in file:
                 if 'Query_time' in line:
-                    outfile.write(line.strip() + '\n')
+                    # outfile.write(line.strip() + '\n')
+                    print(line.strip())
 
                 stripped_line = line.strip()
                 if stripped_line.upper().startswith("SELECT"):
@@ -51,11 +52,11 @@ class db_fn():
                         res = self.process_db(clean_query)
                         count += 1
 
-                        outfile.write('\n' + res + '\n')
+                        # outfile.write('\n' + res + '\n')
                     current_query = ""
                     in_select = False
 
-            outfile.write(str(count) + '\n')
+            # outfile.write(str(count) + '\n')
 
 
 # To test
