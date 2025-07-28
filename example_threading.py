@@ -12,6 +12,7 @@ thread2 = threading.Thread(target=print_numbers, args=('thread2', 5))
 thread1.start()
 thread2.start()
 
+
 thread1.join()
 thread2.join()
 

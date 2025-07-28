@@ -2,6 +2,7 @@ import pymysql
 import time
 import sys
 
+
 class db_fn():
 
     def process_db(self, query):
@@ -15,7 +16,7 @@ class db_fn():
         )
         with connection.cursor() as cursor:
             start_time = time.time()
-            
+
             cursor.execute(query)
             results = cursor.fetchall()
             end_time = time.time()

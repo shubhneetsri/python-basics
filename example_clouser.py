@@ -13,5 +13,24 @@ def parent():
     # returns a child function
     return child
 
-parent_output = parent()
-parent_output() 
+def create_febonnici():
+    x, y = 0, 1
+
+    def febonnici():
+        nonlocal x, y
+        res = x
+        x, y = y, x + y
+        return res
+
+    return febonnici
+        
+
+# parent_output = parent()
+# parent_output() 
+
+feb = create_febonnici()
+print(feb())
+print(feb())
+print(feb())
+print(feb())
+print(feb())
