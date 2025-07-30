@@ -3,6 +3,16 @@ import time
 import sys
 
 class string_fn():
+
+    def is_pelindrome(self, value):
+        return value == value[::-1]
+
+    def check_pelindrome(self, value):
+        reverse_string = ''
+        for i in range(len(value) - 1, -1, -1):
+            reverse_string += value[i] 
+        return reverse_string == value
+
     def get_str_occurence(self, str_val):
 
         new_dict = {}
@@ -39,6 +49,8 @@ class string_fn():
 
 # To test
 str_obj = string_fn()
+str_input = input('Enter String: ')
+print(str_obj.check_pelindrome(str_input))
 # str_obj.latters_count('shubhneet')
 # res = str_obj.get_str_occurence([2,1,6,5,4,89,5,0])
 # print(str_obj.sort_list_desc([2,1,6,5,4,89,5,0]))
