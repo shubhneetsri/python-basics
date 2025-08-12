@@ -28,6 +28,12 @@ class string_fn():
         #         new_dict[char] = 1
         print(new_dict)
 
+    def latter_count(self, strvalue):
+        list_of_values = [word for word in strvalue if word != ' ']
+        
+        val_arr = {'s': 1}
+        for val in list_of_values:
+            val_arr[val] = val_arr.get(val,0) + 1
 
 
     def latters_count(self, name): 
@@ -49,8 +55,9 @@ class string_fn():
 
 # To test
 str_obj = string_fn()
-str_input = input('Enter String: ')
-print(str_obj.check_pelindrome(str_input))
+# str_input = input('Enter String: ')
+# print(str_obj.check_pelindrome(str_input))
+str_obj.latter_count('shubhneet Jee')
 # str_obj.latters_count('shubhneet')
 # res = str_obj.get_str_occurence([2,1,6,5,4,89,5,0])
 # print(str_obj.sort_list_desc([2,1,6,5,4,89,5,0]))

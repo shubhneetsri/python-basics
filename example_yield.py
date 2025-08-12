@@ -4,10 +4,22 @@
 
 # print(df[df['Ticket Number']>25564])
 
+def heavy_read():
+    with open('open_tickets.csv') as file:
+        buffer = ''
+        while chunk := file.read(100):
+            buffer += chunk
+            yield buffer
+            
+
 def generator_read():
     with open('open_tickets.csv') as file:
         for line in file:
             yield line.strip()
 
-for line in generator_read():
+# for line in generator_read():
+#     print(line)
+
+for line in heavy_read():
     print(line)
+    break
