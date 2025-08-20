@@ -16,7 +16,8 @@ class RozarpayProcess(Payment):
         self.payment_method = "rozorpay"
     
     def process_payment(self):
-        return self.keys = {"rozorpay"}
+        self.keys = {"rozorpay"}
+        return self.keys
 
     def test(self):
         print("Just a test method")

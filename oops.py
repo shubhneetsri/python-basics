@@ -1,8 +1,8 @@
 class Dog:
-    def __init__(self, name)
+    def __init__(self, name):
         self.name = name
     
-    def speak(self)
+    def speak(self):
         return f"{self.name} says woof!"
 
 my_dog = Dog("Buddy")
