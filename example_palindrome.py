@@ -17,9 +17,12 @@ new_arr = ""
 #     new_arr.append(arr[loc])
 # new_arr = ''.join(new_arr)
 
-for n in test_str:
-    print(f"{n} + {new_arr}""\n")
-    new_arr = n + new_arr
+# for n in test_str:
+#     print(f"{n} + {new_arr}""\n")
+#     new_arr = n + new_arr
+
+for char in test_str:
+    new_arr = char + new_arr
 
 if (new_arr == test_str):
     print("String is palindrome.")
