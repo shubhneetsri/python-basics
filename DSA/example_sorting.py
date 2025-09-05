@@ -8,6 +8,7 @@ class sorting_fn():
         for i in range(len(listvalues)):
             for j in range(len(listvalues) - 1):
                 if listvalues[j] < listvalues[j+1]:
+                    # listvalues[j], listvalues[j+1] = listvalues[j+1], listvalues[j]
                     temp = listvalues[j]
                     listvalues[j] = listvalues[j+1]
                     listvalues[j+1] = temp

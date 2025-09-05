@@ -75,13 +75,6 @@
   - __init__
   - add_node
 
-## 📄 File: `.\example_mixed_type_loop.py`
-
-### 🏷️ Classes:
-- **NumberProb**
-  - __init__
-  - get_numbers
-
 ## 📄 File: `.\example_mro.py`
 
 ### 🏷️ Classes:
@@ -117,15 +110,6 @@
   - process_db
   - read_file
 
-## 📄 File: `.\example_sorting.py`
-
-### 🏷️ Classes:
-- **sorting_fn**
-  - sort_list_desc
-  - sort_list
-  - merge_sort_desc
-  - merge_sort
-
 ## 📄 File: `.\example_staticmethod.py`
 
 ### 🏷️ Classes:
@@ -152,6 +136,58 @@
 - **Dog**
   - __init__
   - speak
+
+## 📄 File: `.\DSA\example_longest_string.py`
+
+### 🏷️ Classes:
+- **longestString**
+  - __init__
+  - getLengthOfLongestString
+
+## 📄 File: `.\DSA\example_missing_number.py`
+
+### 🏷️ Classes:
+- **find_missing_number**
+  - __init__
+  - getOneMissingNumber
+  - getTwoMissingNumbers
+
+## 📄 File: `.\DSA\example_mixed_type_loop.py`
+
+### 🏷️ Classes:
+- **NumberProb**
+  - __init__
+  - get_numbers
+
+## 📄 File: `.\DSA\example_palindrome.py`
+
+### 🏷️ Classes:
+- **Palindrome**
+  - __init__
+  - check_palindrome
+
+## 📄 File: `.\DSA\example_platform_greedy.py`
+
+### 🏷️ Classes:
+- **platform**
+  - __init__
+  - find_required_platforms
+
+## 📄 File: `.\DSA\example_sorting.py`
+
+### 🏷️ Classes:
+- **sorting_fn**
+  - sort_list_desc
+  - sort_list
+  - merge_sort_desc
+  - merge_sort
+
+## 📄 File: `.\DSA\example_two_sum_problem.py`
+
+### 🏷️ Classes:
+- **TwoSum**
+  - __init__
+  - get_two_sum_for_target
 
 ## 📄 File: `.\path_and_requests\tem\module\test.py`
 
