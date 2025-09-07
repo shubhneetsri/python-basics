@@ -137,12 +137,33 @@
   - __init__
   - speak
 
+## 📄 File: `.\DSA\example_factorial.py`
+
+### 🏷️ Classes:
+- **Factorial**
+  - __init__
+  - getFactorial
+
+## 📄 File: `.\DSA\example_find_subsets.py`
+
+### 🏷️ Classes:
+- **Set**
+  - __init__
+  - getAllSubSets
+
 ## 📄 File: `.\DSA\example_longest_string.py`
 
 ### 🏷️ Classes:
 - **longestString**
   - __init__
   - getLengthOfLongestString
+
+## 📄 File: `.\DSA\example_max_subarr_sum.py`
+
+### 🏷️ Classes:
+- **max_subarray**
+  - __init__
+  - getMaxSubArraysForTarget
 
 ## 📄 File: `.\DSA\example_missing_number.py`
 
@@ -173,6 +194,13 @@
   - __init__
   - find_required_platforms
 
+## 📄 File: `.\DSA\example_second_largest.py`
+
+### 🏷️ Classes:
+- **greter**
+  - __init__
+  - getSecondLargest
+
 ## 📄 File: `.\DSA\example_sorting.py`
 
 ### 🏷️ Classes:
@@ -181,6 +209,13 @@
   - sort_list
   - merge_sort_desc
   - merge_sort
+
+## 📄 File: `.\DSA\example_string_arrange.py`
+
+### 🏷️ Classes:
+- **StringArrangment**
+  - __init__
+  - getAllArrangement
 
 ## 📄 File: `.\DSA\example_two_sum_problem.py`
 
