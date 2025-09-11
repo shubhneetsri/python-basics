@@ -137,6 +137,21 @@
   - __init__
   - speak
 
+## 📄 File: `.\DSA\example_3sum.py`
+
+### 🏷️ Classes:
+- **SumProblem**
+  - __init__
+  - solve_3sum
+  - solve_3sum_optimized
+
+## 📄 File: `.\DSA\example_4sum.py`
+
+### 🏷️ Classes:
+- **SumGroups**
+  - __init__
+  - getSums
+
 ## 📄 File: `.\DSA\example_factorial.py`
 
 ### 🏷️ Classes:
@@ -164,6 +179,13 @@
 - **max_subarray**
   - __init__
   - getMaxSubArraysForTarget
+
+## 📄 File: `.\DSA\example_min_subarr_sum.py`
+
+### 🏷️ Classes:
+- **SubArr**
+  - __init__
+  - getMinSubArr
 
 ## 📄 File: `.\DSA\example_missing_number.py`
 

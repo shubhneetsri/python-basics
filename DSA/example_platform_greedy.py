@@ -23,7 +23,7 @@ class platform():
                 if arr[i] < dep[i-1]:
                     platforms += 1
 
-        return platforms;
+        return platforms
 
 
 # arr.sort()
