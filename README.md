@@ -223,6 +223,13 @@
   - __init__
   - getSecondLargest
 
+## 📄 File: `.\DSA\example_sec_largest.py`
+
+### 🏷️ Classes:
+- **Larger**
+  - __init__
+  - getSecondLargest
+
 ## 📄 File: `.\DSA\example_sorting.py`
 
 ### 🏷️ Classes:
@@ -238,6 +245,13 @@
 - **StringArrangment**
   - __init__
   - getAllArrangement
+
+## 📄 File: `.\DSA\example_subarr_with_total.py`
+
+### 🏷️ Classes:
+- **SubArrayOfSum**
+  - __init__
+  - getSubArraysOfTargetSum
 
 ## 📄 File: `.\DSA\example_two_sum_problem.py`
 
