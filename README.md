@@ -152,6 +152,13 @@
   - __init__
   - getSums
 
+## 📄 File: `.\DSA\example_anagram.py`
+
+### 🏷️ Classes:
+- **Anagram**
+  - __init__
+  - isAnagram
+
 ## 📄 File: `.\DSA\example_factorial.py`
 
 ### 🏷️ Classes:
