@@ -159,6 +159,12 @@
   - __init__
   - isAnagram
 
+## 📄 File: `.\DSA\example_count_vowel.py`
+
+### 🏷️ Classes:
+- **AlphaFilter**
+  - __init__
+
 ## 📄 File: `.\DSA\example_factorial.py`
 
 ### 🏷️ Classes:
@@ -172,6 +178,14 @@
 - **Set**
   - __init__
   - getAllSubSets
+
+## 📄 File: `.\DSA\example_group_anagram.py`
+
+### 🏷️ Classes:
+- **anagram**
+  - __init__
+  - getExactGroups
+  - getGroups
 
 ## 📄 File: `.\DSA\example_longest_string.py`
 
@@ -222,6 +236,12 @@
 - **platform**
   - __init__
   - find_required_platforms
+
+## 📄 File: `.\DSA\example_reverse_string.py`
+
+### 🏷️ Classes:
+- **reverse**
+  - __init__
 
 ## 📄 File: `.\DSA\example_second_largest.py`
 

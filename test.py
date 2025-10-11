@@ -1,11 +1,10 @@
-import pandas as pd
-import numpy as np
+"""
+Given a string s, 
+find the length of the longest substring without repeating characters.
+s = "abcabcbb"
+# Output: 3  (substring "abc")
+"""
+s = "abcabcbbzpok"
 
-df = pd.DataFrame([
-    [1,2,3,4,5,6],
-    ['admin','','internal','finance','',''],
-    [200,300,1,34,4,900]
-])
-
-df.replace('',np.nan)
-print(df.fillna('missing'))
+stack = []
+output = []
