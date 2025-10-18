@@ -1,10 +1,16 @@
-"""
-Given a string s, 
-find the length of the longest substring without repeating characters.
-s = "abcabcbb"
-# Output: 3  (substring "abc")
-"""
-s = "abcabcbbzpok"
+class B():
+    def __init__(self):
+        self.name='kenya'
 
-stack = []
-output = []
+    def getname(self):
+        return self.name
+
+class D(B):
+    def __init__(self, name, email):
+        super(D,self).__init__()
+        self.email = email
+    
+    def getname(self):
+        return self.name
+    
+print(D('Test','ssss').getname())

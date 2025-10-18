@@ -25,13 +25,16 @@ data = [
 
 df = pd.DataFrame(data)
 
-filtered_df = df[df['score'] >= 60]
+df_sorted = df.sort_values(by='score', ascending=False)
+print(df_sorted)
 
-result = filtered_df[['name', 'class']]
-print(result)
+# filtered_df = df[df['score'] >= 60]
 
-mean_scores = df.groupby('class')['score'].mean() #.reset_index()
-print(mean_scores)
+# result = filtered_df[['name', 'class']]
+# print(result)
 
-data = df.groupby('class')['score'].transform('mean')
-print(data)
+# mean_scores = df.groupby('class')['score'].mean() #.reset_index()
+# print(mean_scores)
+
+# data = df.groupby('class')['score'].transform('mean')
+# print(data)

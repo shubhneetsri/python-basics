@@ -11,6 +11,18 @@
   - process_payment
   - test
 
+## 📄 File: `.\example_abstract.py`
+
+### 🏷️ Classes:
+- **flyable**
+  - fly
+- **movable**
+  - run
+- **execute**
+  - __init__
+  - run
+  - fly
+
 ## 📄 File: `.\example_annotation.py`
 
 ### 🏷️ Classes:
@@ -103,6 +115,16 @@
 - **DoubleCalculator**
   - add
 
+## 📄 File: `.\example_poly_encaps.py`
+
+### 🏷️ Classes:
+- **vehical**
+  - startEngine
+- **airoplane**
+  - startEngine
+- **car**
+  - startEngine
+
 ## 📄 File: `.\example_read_sql.py`
 
 ### 🏷️ Classes:
@@ -137,6 +159,16 @@
   - __init__
   - speak
 
+## 📄 File: `.\test.py`
+
+### 🏷️ Classes:
+- **B**
+  - __init__
+  - getname
+- **D**
+  - __init__
+  - getname
+
 ## 📄 File: `.\DSA\example_3sum.py`
 
 ### 🏷️ Classes:
@@ -158,6 +190,14 @@
 - **Anagram**
   - __init__
   - isAnagram
+
+## 📄 File: `.\DSA\example_circular_prime.py`
+
+### 🏷️ Classes:
+- **A**
+  - __init__
+  - check_prime
+  - getAllCPrimes
 
 ## 📄 File: `.\DSA\example_count_vowel.py`
 
@@ -186,6 +226,13 @@
   - __init__
   - getExactGroups
   - getGroups
+
+## 📄 File: `.\DSA\example_grt_avrg_subarr.py`
+
+### 🏷️ Classes:
+- **A**
+  - __init__
+  - getMaxAvrg
 
 ## 📄 File: `.\DSA\example_longest_string.py`
 
@@ -272,6 +319,20 @@
 - **StringArrangment**
   - __init__
   - getAllArrangement
+
+## 📄 File: `.\DSA\example_subarr_diff.py`
+
+### 🏷️ Classes:
+- **A**
+  - __init__
+  - getSubArrs
+
+## 📄 File: `.\DSA\example_subarr_sum_async.py`
+
+### 🏷️ Classes:
+- **subarr_prob**
+  - __init__
+  - getSubArrForTotal
 
 ## 📄 File: `.\DSA\example_subarr_with_total.py`
 
